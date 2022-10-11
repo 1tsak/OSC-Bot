@@ -1,4 +1,9 @@
+
 # OSC-Bot
+
+<img height="50" width="50"  align="center" src="https://user-images.githubusercontent.com/42407874/195036409-d941ee06-2210-4643-ba27-8ae0fac53465.jpg">
+
+
 A Discord Bot For Open Source Guidance &amp; Resources
 
 - OSC Bot is an open-source discord bot created using discord.js for providing guidance and resources on how to start and continue your journey in an open source. You can fork this project and extend it.
