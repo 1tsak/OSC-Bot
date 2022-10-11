@@ -12,6 +12,19 @@ Feel free to contribute in this project.
 
 <img src='https://hacktoberfest.com/_next/static/media/opengraph.da6e44c0.png'/>
 
+
+## What is Discord.js?
+- Discord.js is a powerful Node.js  module that allows you to interact with the Discord API  very easily. It takes a much more object-oriented approach than most other JS Discord libraries, making your bot's code significantly tidier and easier to comprehend.
+- Usability, consistency, and performance are key focuses of discord.js, and it also has nearly 100% coverage of the Discord API. It receives new Discord features shortly after they arrive in the API.
+- Discord.js definition credit : https://discord.js.org/#/
+
+## Discord.js links for reference?
+- https://discord.js.org/#/
+- https://discord.com/developers/docs/intro
+- https://discordjs.guide/#before-you-begin
+- https://www.npmjs.com/package/discord.js
+- https://github.com/discordjs
+
 ## Why contribute?
 - If you find any bugs then please report them by creating an issue. 
 - If you can add more functionality, then create an issue and contribute by making pull request.
