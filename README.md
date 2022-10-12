@@ -13,6 +13,17 @@ Feel free to contribute in this project.
 <img src='https://hacktoberfest.com/_next/static/media/opengraph.da6e44c0.png'/>
 
 
+#### Run locally 
+
+1. Clone the repository and run ```npm install``` to install the dependencies.
+
+2. Create .env file in root directory and add the discord token created at Discord Dev Portal in this format:
+
+``` bash
+TOKEN = "<Your Token Here>"
+```
+3. Run the start script by running ```npm run start``` .
+
 ## What is Discord.js?
 - Discord.js is a powerful Node.js  module that allows you to interact with the Discord API  very easily. It takes a much more object-oriented approach than most other JS Discord libraries, making your bot's code significantly tidier and easier to comprehend.
 - Usability, consistency, and performance are key focuses of discord.js, and it also has nearly 100% coverage of the Discord API. It receives new Discord features shortly after they arrive in the API.
