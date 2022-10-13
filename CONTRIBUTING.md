@@ -37,12 +37,12 @@ $ git add .
 ```
 ## Step 5 : Commit
 
-- To commit give a descriptive message for the convenience of reveiwer by:
+- To commit give a descriptive message for the convenience of reviewer by:
 ```
 $ git commit -m "message"
 ```
 ## Step 6 : Work Remotely
-- Now you are ready to your work to the remote repository.
+- Now you are ready with your work in the remote repository.
 - When your work is ready and complies with the project conventions, upload your changes to your fork:
 
 ```
@@ -54,7 +54,7 @@ $ git push -u origin Branch_Name
 - I will review your pull request and if it is up to the mark it will be merged. 
 
 ## Still need help
-Read the below article if you nedd more help 
+Read the below article if you need more help 
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 - [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github)
 
