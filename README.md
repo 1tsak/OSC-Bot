@@ -46,6 +46,6 @@ TOKEN = "<Your Token Here>"
 
 ## contributors : 
 
-<a href="https://github.com/Arun9739/Paryatana/graphs/contributors">
+<a href="https://github.com/1tsak/OSC-Bot/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=1tsak/OSC-Bot"/>
 </a>
