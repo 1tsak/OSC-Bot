@@ -2,9 +2,9 @@
   "name": "open-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon /src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,8 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
-    "discord.js": "^14.5.0",
-    "dotenv": "^16.0.3"
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "glob": "^8.0.3"
   }
 }
