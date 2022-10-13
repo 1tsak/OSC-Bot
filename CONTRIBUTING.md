@@ -6,7 +6,7 @@ This documentation contains a set of guidelines to help you during the contribut
 
 ## Step 1 : Find an issue
 - Take a look at the Existing Issues or create your own Issues!
-- Wait for the Issue to be assigned to you after which you can start working on it or just start working on it if you created a new issue.
+- Wait for the Issue to be assigned to you after which you can start working on it.
 - Note : Every change in this project should/must have an associated issue. 
 
 
@@ -29,7 +29,7 @@ Create a new branch. Use its name to identify the issue your addressing.
 $ git checkout -b branch_name
 ```
 ## Step 4 : Work on the issue assigned
-- Work on the issue assigned to you/issue you created. 
+- Work on the issue assigned to you. 
 - Add all the files/folders needed.
 - After you've made changes or made your contribution to the project add changes to the branch you've just created by:
 ```
@@ -37,7 +37,7 @@ $ git add .
 ```
 ## Step 5 : Commit
 
-- To commit give a descriptive message for the convenience of reveiwer by:
+- To commit give a descriptive message for the convenience of reviewer by:
 ```
 $ git commit -m "message"
 ```
@@ -54,7 +54,7 @@ $ git push -u origin Branch_Name
 - I will review your pull request and if it is up to the mark it will be merged. 
 
 ## Still need help
-Read the below mentioned articles if you need more help
+Read the below article if you need more help 
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 - [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github)
 
