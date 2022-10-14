@@ -10,15 +10,16 @@ module.exports = {
     async run(interaction) {
         try {
             interaction.channel.sendTyping();
+            console.log(interaction.guild);
             const serverembed = new EmbedBuilder()
 
                 .setAuthor({
                     name: `Server info for ${interaction.guild.name}`,
                     iconURL:
-                        `${interaction.guild.iconURL({ dynamic: true, size: 512 })}`
+                    `${interaction.guild.iconURL? 'https://cdn.discordapp.com/attachments/884202202001569812/884202233201268766/unknown.png':interaction.guild.iconURL({ dynamic: true, size: 512 })}`
                 })
                 .setColor('Random')
-                .setThumbnail(interaction.guild.iconURL({ dynamic: true, size: 512 }))
+                .setThumbnail( `${interaction.guild.iconURL? 'https://cdn.discordapp.com/attachments/884202202001569812/884202233201268766/unknown.png':interaction.guild.iconURL({ dynamic: true, size: 512 })}`)
                 .addFields(
                     {
                         name: 'General',
@@ -31,7 +32,7 @@ module.exports = {
                         value: `\n** Role Count:** ${interaction.guild.roles.cache.size}\n**Member Count:** ${interaction.guild.memberCount}`
                     }
                 )
-                .setFooter({ text: `Requested by ${interaction.member.user.username}`, iconURL: interaction.guild.iconURL({ dynamic: true }) })
+                .setFooter({ text: `Requested by ${interaction.member.user.username}`, iconURL:  `${interaction.guild.iconURL? 'https://cdn.discordapp.com/attachments/884202202001569812/884202233201268766/unknown.png':interaction.guild.iconURL({ dynamic: true })}` })
                 .setTimestamp();
             interaction.reply({ embeds: [serverembed], ephemeral: false });
             console.log(`/Serverinfo command used by : ${interaction.member.user}`);

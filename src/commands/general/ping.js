@@ -18,14 +18,14 @@ module.exports = {
                 .setAuthor({
                     name: `${interaction.guild.name}`,
                     iconURL:
-                        `${interaction.guild.iconURL({ dynamic: true, size: 512 })}`
+                    `${interaction.guild.iconURL? 'https://cdn.discordapp.com/attachments/884202202001569812/884202233201268766/unknown.png':interaction.guild.iconURL({ dynamic: true, size: 512 })}`
                 })
                 .setTitle(`Bot Ping`)
                 .addFields(
                     { name: 'Ping Latency', value: `\`${pingLatency} ms\`` },
                     { name: 'API Latency', value: `\`${apiLatency} ms\`` }
                 )
-                .setFooter({ text: `${interaction.user.username}`, iconURL: `${interaction.guild.iconURL({ dynamic: true })}` })
+                .setFooter({ text: `${interaction.user.username}`, iconURL:  `${interaction.guild.iconURL? 'https://cdn.discordapp.com/attachments/884202202001569812/884202233201268766/unknown.png':interaction.guild.iconURL({ dynamic: true })}` })
                 .setTimestamp();
             interaction.reply({ embeds: [pingembed] });
 
